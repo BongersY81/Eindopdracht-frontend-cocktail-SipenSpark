@@ -1,18 +1,22 @@
+
 .navbar-container {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: flex-end;
 }
-
-
 
 
 button {
     background-color: #7B6E1E;
     color: #000000;
-    padding: 20px;
+    padding-left: 5px;
+    padding-right: 10px;
+    border: none;
     border-radius: 40px;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    margin: 10px;
+
 }
-
-
