@@ -1,16 +1,17 @@
 import sipenspark from '../../assets/sipenspark.PNG';
 import './Homepage.css'
-import Navigation from "../../components/navigation/Navigation.jsx";
+
 
 
 function Homepage() {
     return (
-        <>
-            <section className="image-container">
+
+
+            <section className="image-sipenspark-container">
                 <img src={sipenspark} alt="sipenspark"/>
             </section>
-        </>
-    )
+
+    );
 }
 
 
